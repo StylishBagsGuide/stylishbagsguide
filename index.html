@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stylish Bags Guide | By Rahat Fatima</title>
+<title>Stylish Bags Guide</title>
 
 <style>
 body{
@@ -17,10 +17,6 @@ background:#e91e63;
 color:white;
 padding:25px;
 text-align:center;
-}
-
-header h1{
-margin:0;
 }
 
 nav{
@@ -41,60 +37,57 @@ text-decoration:underline;
 }
 
 .container{
-display:flex;
 max-width:1200px;
-margin:30px auto;
-gap:30px;
+margin:40px auto;
 padding:0 20px;
 }
 
-.main{
-flex:3;
+.posts{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
 }
 
-.sidebar{
-flex:1;
+.card{
 background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:0 4px 10px rgba(0,0,0,0.1);
-height:fit-content;
-}
-
-.post{
-background:white;
-padding:20px;
-margin-bottom:25px;
-border-radius:10px;
+border-radius:12px;
 box-shadow:0 4px 12px rgba(0,0,0,0.1);
+overflow:hidden;
+transition:0.3s;
 }
 
-.post img{
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card img{
 width:100%;
-border-radius:10px;
+height:220px;
+object-fit:cover;
 }
 
-.post h2{
+.card-content{
+padding:18px;
+}
+
+.card h2{
 color:#c2185b;
+font-size:18px;
 }
 
 .button{
 display:inline-block;
 margin-top:10px;
-padding:10px 18px;
+padding:8px 16px;
 background:#e91e63;
 color:white;
 text-decoration:none;
-border-radius:25px;
+border-radius:20px;
 font-weight:bold;
 }
 
 .button:hover{
 background:#c2185b;
-}
-
-.sidebar h3{
-color:#e91e63;
 }
 
 footer{
@@ -105,12 +98,6 @@ padding:18px;
 margin-top:40px;
 font-size:14px;
 }
-
-@media(max-width:768px){
-.container{
-flex-direction:column;
-}
-}
 </style>
 </head>
 
@@ -118,7 +105,7 @@ flex-direction:column;
 
 <header>
 <h1>Stylish Bags Guide</h1>
-<p>By Rahat Fatima | Discover Trendy & Affordable Bags</p>
+<p>By Rahat Fatima | Trendy & Affordable Bags</p>
 </header>
 
 <nav>
@@ -131,55 +118,54 @@ flex-direction:column;
 
 <div class="container">
 
-<div class="main">
+<div class="posts">
 
-<div class="post">
+<div class="card">
 <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3">
+<div class="card-content">
 <h2>Best Elegant Leather Handbags 2026</h2>
-<p>Discover the most stylish and affordable leather handbags that are perfect for work, events and daily use.</p>
+<p>Discover stylish leather handbags perfect for daily and formal use.</p>
 <a href="#" class="button">Buy on Amazon</a>
 </div>
+</div>
 
-<div class="post">
+<div class="card">
 <img src="https://images.unsplash.com/photo-1600185366004-3c9c1d8b4f5b">
-<h2>Top Trending Tote Bags for Women</h2>
-<p>Spacious, stylish and budget-friendly tote bags that every woman should have in her collection.</p>
+<div class="card-content">
+<h2>Top Trending Tote Bags</h2>
+<p>Spacious and fashionable tote bags every woman loves.</p>
 <a href="#" class="button">Buy on Amazon</a>
 </div>
+</div>
 
-<div class="post">
+<div class="card">
 <img src="https://images.unsplash.com/photo-1616628182508-92b8c7c5eec5">
-<h2>Best Crossbody Bags for Everyday Use</h2>
-<p>Lightweight crossbody bags that combine comfort and fashion perfectly.</p>
+<div class="card-content">
+<h2>Best Crossbody Bags</h2>
+<p>Lightweight and modern crossbody bags for everyday use.</p>
 <a href="#" class="button">Buy on Amazon</a>
 </div>
-
+</div>
+<div class="card">
+<img src="IMAGE LINK">
+<div class="card-content">
+<h2>Post Title</h2>
+<p>Short description.</p>
+<a href="AMAZON LINK" class="button">Buy on Amazon</a>
+</div>
 </div>
 
-<div class="sidebar">
-<h3>About Me</h3>
-<p>Hi, I'm Rahat Fatima. I help you find stylish and affordable bags through honest reviews and recommendations.</p>
-
-<h3>Categories</h3>
-<ul>
-<li>Handbags</li>
-<li>Tote Bags</li>
-<li>Crossbody</li>
-<li>Luxury Inspired</li>
-</ul>
-
-<h3>Affiliate Disclosure</h3>
-<p>As an Amazon Associate, I earn from qualifying purchases.</p>
 </div>
 
 </div>
 
 <footer>
-© 2026 Stylish Bags Guide | All Rights Reserved
+© 2026 Stylish Bags Guide | Affiliate Disclosure: As an Amazon Associate, I earn from qualifying purchases.
 </footer>
 
 </body>
 </html>
+
 
 
 
