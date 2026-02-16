@@ -3,26 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stylish Bags Guide | Trendy & Affordable Bags</title>
+<title>Stylish Bags Guide | By Rahat Fatima</title>
 
 <style>
 body{
 margin:0;
 font-family:Arial, sans-serif;
-background:#fff0f5;
+background:#fff5f9;
 }
 
 header{
 background:#e91e63;
 color:white;
-padding:20px;
+padding:25px;
 text-align:center;
+}
+
+header h1{
+margin:0;
 }
 
 nav{
 background:#c2185b;
-text-align:center;
 padding:12px;
+text-align:center;
 }
 
 nav a{
@@ -36,60 +40,47 @@ nav a:hover{
 text-decoration:underline;
 }
 
-.hero{
-background:url('https://images.unsplash.com/photo-1590874103328-eac38a683ce7') center/cover;
-height:350px;
+.container{
 display:flex;
-justify-content:center;
-align-items:center;
-color:white;
-text-align:center;
+max-width:1200px;
+margin:30px auto;
+gap:30px;
+padding:0 20px;
 }
 
-.hero h1{
-background:rgba(0,0,0,0.5);
-padding:15px 30px;
-border-radius:8px;
+.main{
+flex:3;
 }
 
-.section{
-padding:50px 20px;
-text-align:center;
-}
-
-.section h2{
-color:#c2185b;
-margin-bottom:30px;
-}
-
-.products{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-max-width:1100px;
-margin:auto;
-}
-
-.card{
+.sidebar{
+flex:1;
 background:white;
-padding:15px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+height:fit-content;
+}
+
+.post{
+background:white;
+padding:20px;
+margin-bottom:25px;
 border-radius:10px;
 box-shadow:0 4px 12px rgba(0,0,0,0.1);
-transition:0.3s;
 }
 
-.card:hover{
-transform:translateY(-5px);
-}
-
-.card img{
+.post img{
 width:100%;
 border-radius:10px;
 }
 
+.post h2{
+color:#c2185b;
+}
+
 .button{
 display:inline-block;
-margin-top:12px;
+margin-top:10px;
 padding:10px 18px;
 background:#e91e63;
 color:white;
@@ -102,6 +93,10 @@ font-weight:bold;
 background:#c2185b;
 }
 
+.sidebar h3{
+color:#e91e63;
+}
+
 footer{
 background:#e91e63;
 color:white;
@@ -110,14 +105,20 @@ padding:18px;
 margin-top:40px;
 font-size:14px;
 }
+
+@media(max-width:768px){
+.container{
+flex-direction:column;
+}
+}
 </style>
 </head>
 
 <body>
 
 <header>
-<h2>Stylish Bags Guide</h2>
-<p>By Rahat Fatima</p>
+<h1>Stylish Bags Guide</h1>
+<p>By Rahat Fatima | Discover Trendy & Affordable Bags</p>
 </header>
 
 <nav>
@@ -128,45 +129,59 @@ font-size:14px;
 <a href="#">Contact</a>
 </nav>
 
-<div class="hero">
-<h1>Find Your Perfect Stylish Bag</h1>
-</div>
+<div class="container">
 
-<div class="section">
-<h2>Featured Bags</h2>
+<div class="main">
 
-<div class="products">
-
-<div class="card">
+<div class="post">
 <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3">
-<h3>Elegant Leather Handbag</h3>
-<p>Perfect for daily and formal use.</p>
+<h2>Best Elegant Leather Handbags 2026</h2>
+<p>Discover the most stylish and affordable leather handbags that are perfect for work, events and daily use.</p>
 <a href="#" class="button">Buy on Amazon</a>
 </div>
 
-<div class="card">
+<div class="post">
 <img src="https://images.unsplash.com/photo-1600185366004-3c9c1d8b4f5b">
-<h3>Trendy Tote Bag</h3>
-<p>Spacious and stylish design.</p>
+<h2>Top Trending Tote Bags for Women</h2>
+<p>Spacious, stylish and budget-friendly tote bags that every woman should have in her collection.</p>
 <a href="#" class="button">Buy on Amazon</a>
 </div>
 
-<div class="card">
+<div class="post">
 <img src="https://images.unsplash.com/photo-1616628182508-92b8c7c5eec5">
-<h3>Chic Crossbody Bag</h3>
-<p>Lightweight and modern look.</p>
+<h2>Best Crossbody Bags for Everyday Use</h2>
+<p>Lightweight crossbody bags that combine comfort and fashion perfectly.</p>
 <a href="#" class="button">Buy on Amazon</a>
 </div>
 
 </div>
+
+<div class="sidebar">
+<h3>About Me</h3>
+<p>Hi, I'm Rahat Fatima. I help you find stylish and affordable bags through honest reviews and recommendations.</p>
+
+<h3>Categories</h3>
+<ul>
+<li>Handbags</li>
+<li>Tote Bags</li>
+<li>Crossbody</li>
+<li>Luxury Inspired</li>
+</ul>
+
+<h3>Affiliate Disclosure</h3>
+<p>As an Amazon Associate, I earn from qualifying purchases.</p>
+</div>
+
 </div>
 
 <footer>
-<p>© 2026 Stylish Bags Guide | Affiliate Disclosure: As an Amazon Associate, I earn from qualifying purchases.</p>
+© 2026 Stylish Bags Guide | All Rights Reserved
 </footer>
 
 </body>
 </html>
+
+
 
 
 
